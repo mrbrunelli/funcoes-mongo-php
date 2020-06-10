@@ -15,8 +15,6 @@
 
 <body>
 
-
-
   <div class="container">
     <div class="mt-5">
       <?php require_once __DIR__ . "/../core/layouts.php"; ?>

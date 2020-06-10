@@ -9,13 +9,14 @@
         </thead>
 
         <tbody>
-            <tr>
-                <td>dfasd</td>
-                <td>dfa</td>
-                <td>asdf</td>
-                <td><a href="editar?id=" class="bnt">Editar</a></td>
-            </tr>
-            <tr>
+            <?php foreach ($data as $d) : ?>
+                <tr>
+                    <td><?= $d->marca ?></td>
+                    <td><?= $d->descricao ?></td>
+                    <td><a href="marcas_edit?id=<?= $d->_id ?>" class="bnt"><img src="assets/svg/editar.svg" style="width:1.5em;height:auto"></a></td>
+                </tr>
+                <tr>
+                <?php endforeach ?>
         </tbody>
     </table>
     <div class="float-right"><a href="marcas_add"><img src="assets/svg/adicionar.svg" style="width:4em;height:auto"> </a></div>

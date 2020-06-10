@@ -4,6 +4,7 @@ $route[] = ['/', 'dashController'];
 
 $route[] = ['usuarios', 'usuarios/tableview'];
 $route[] = ['usuarios_add', 'usuarios/add'];
+$route[] = ['usuarios_save', 'usuarios/save'];
 
 $route[] = ['produtos', 'produtos/tableview'];
 $route[] = ['produtos_add', 'produtos/add'];

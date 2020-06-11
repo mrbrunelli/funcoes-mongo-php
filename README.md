@@ -16,7 +16,7 @@
 <br>
 <br>
 
-Essa aplicação está utilizando Docker. Para executa-lá navegue até a pasta raiz do projeto e digite:
+Essa aplicação está utilizando Docker. Para executa-lá navegue até a pasta raiz do projeto e digite no terminal:
 ```docker
     docker-compose up -d
 ```

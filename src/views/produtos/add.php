@@ -10,19 +10,17 @@
 
             <div class="form-group">
                 <label for="marca">Marca</label>
-                <select name="marca" id="marca" class="form-control">
-
-                    <option value="0">marca</option>
-                    <?php foreach ($marcas as $m) { ?>
-                        <option value="<?php echo $m->_id ?>"><?php echo $m->marca ?></option>
-                    <?php } ?>
-
+                <select name="marca" id="marca" class="form-control" required>
+                    <option />
+                    <?php foreach ($marcas as $m) : ?>
+                        <option value="<?= $m->_id ?>"><?= $m->marca ?></option>
+                    <?php endforeach ?>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="perco">Preço</label>
-                <input type="number" step="any" name="perco" id="perco" class="form-control" />
+                <label for="preco">Preço</label>
+                <input type="number" step="any" name="preco" id="preco" class="form-control" />
             </div>
 
             <div class="form-group">

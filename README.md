@@ -8,7 +8,7 @@
 
 <br>
 <br>
-<center>
+<span align="center">
 
 ### :elephant: + :fallen_leaf: Banco de Dados Avançado
 :mortar_board: Aula ministrada pelo [Professor Márcio](https://github.com/marciock)
@@ -35,4 +35,4 @@ Marcas
 Mongo Compass
 ![](./.github/mongo-compass.png)
 
-</center>
+</span>
